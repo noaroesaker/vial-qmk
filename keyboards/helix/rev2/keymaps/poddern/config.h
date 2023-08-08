@@ -1,0 +1,16 @@
+#pragma once
+
+//#define SOFT_SERIAL_PIN D2  // or D1, D2, D3, E6
+//#define SPLIT_USB_DETECT
+//#define SPLIT_TRANSPORT_MIRROR
+
+#define VIAL_KEYBOARD_UID {0xE4, 0x99, 0x35, 0x98, 0xBC, 0xC5, 0xA0, 0x11}
+#define VIAL_UNLOCK_COMBO_ROWS {4, 9}
+#define VIAL_UNLOCK_COMBO_COLS {4, 4}
+
+#undef TAPPING_TERM
+#define TAPPING_TERM 200
+
+#define DYNAMIC_KEYMAP_LAYER_COUNT 3
+// #define EE_HANDS
+// #define USE_SERIAL
