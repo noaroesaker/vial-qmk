@@ -1,6 +1,6 @@
 VIA_ENABLE          = yes
 VIAL_ENABLE = yes
-LTO_ENABLE          = no
+LTO_ENABLE          = yes
 QMK_SETTINGS = no
 
 RGBLIGHT_ENABLE     = no

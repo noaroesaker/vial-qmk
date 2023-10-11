@@ -20,14 +20,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#define VIAL_KEYBOARD_UID {0x5B, 0x12, 0x91, 0xD0, 0xBE, 0x7C, 0x17, 0xEB}
+#define VIAL_KEYBOARD_UID {0x5B, 0x12, 0x91, 0xC0, 0xBE, 0x7C, 0x17, 0xEB}
 #define VIAL_UNLOCK_COMBO_ROWS {0, 0}
 #define VIAL_UNLOCK_COMBO_COLS {0, 1}
 
-#define MASTER_LEFT
-#define USB_MAX_POWER_CONSUMPTION 500
+#define MASTER_EEPROM
 #define FORCE_NKRO
 
-#define DYNAMIC_KEYMAP_LAYER_COUNT 6
+#define DYNAMIC_KEYMAP_LAYER_COUNT 5
 #define TAPPING_TERM 150
 #define QUICK_TAP_TERM 0
