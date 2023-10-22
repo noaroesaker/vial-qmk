@@ -17,20 +17,7 @@
 #define QUICK_TAP_TERM 0
 
 //oled
-#pragma once
-#define HAL_USE_I2C TRUE
-#define I2C_DRIVER I2CD1
-#define I2C1_SDA_PIN GP2
-#define I2C1_SCL_PIN GP3
-
-#define OLED_DISPLAY_64X128
-
-#include_next <mcuconf.h> // for i2c
-#undef RP_I2C_USE_I2C0
-#define RP_I2C_USE_I2C0 FALSE
-#undef RP_I2C_USE_I2C1
-#define RP_I2C_USE_I2C1 TRUE
-
+#define OLED_DISPLAY_32X128
 
 //#define MASTER_LEFT
 #define EE_HANDS
