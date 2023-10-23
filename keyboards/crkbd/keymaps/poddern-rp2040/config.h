@@ -16,8 +16,15 @@
 #define TAPPING_TERM 150
 #define QUICK_TAP_TERM 0
 
+
 //oled
 #define OLED_DISPLAY_32X128
+
+//oled
+#define HAL_USE_I2C TRUE
+#define I2C_DRIVER I2CD1
+#define I2C1_SDA_PIN GP2
+#define I2C1_SCL_PIN GP3
 
 //#define MASTER_LEFT
 #define EE_HANDS
