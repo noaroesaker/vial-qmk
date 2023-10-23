@@ -19,7 +19,7 @@
 
 //oled
 #define OLED_DISPLAY_32X128
-u
+
 //oled
 #define HAL_USE_I2C TRUE
 #define I2C_DRIVER I2CD1
