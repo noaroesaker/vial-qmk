@@ -88,7 +88,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 // Rotate OLED
 oled_rotation_t oled_init_user(oled_rotation_t rotation) {
-    return OLED_ROTATION_0;
+    return OLED_ROTATION_90;
 }
 
 // Animation parameters
