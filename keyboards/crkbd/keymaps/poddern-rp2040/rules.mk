@@ -6,7 +6,6 @@ RGBLIGHT_ENABLE     = no
 RGB_MATRIX_ENABLE   = yes
 
 OLED_ENABLE    = yes
-OLED_TRANSPORT = i2c
 
 NKRO_ENABLE     = yes
 EXTRAKEY_ENABLE = yes
