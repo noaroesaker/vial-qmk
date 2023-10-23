@@ -83,9 +83,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                           KC_LGUI, _______,  KC_SPC,     KC_ENT, _______, KC_RALT
                                       //└────────┴────────┴────────┘  └────────┴────────┴────────┘
   )
-};
-
-
+};9090
 // Rotate OLED
 oled_rotation_t oled_init_user(oled_rotation_t rotation) {
     return OLED_ROTATION_270;
@@ -98,6 +96,7 @@ oled_rotation_t oled_init_user(oled_rotation_t rotation) {
 uint32_t timer = 0;
 uint8_t current_frame = 0;
 
+// https://javl.github.io/image2cpp/
 // Render animation
 static void render_animation(void) {
     // 'frame_00_delay-0', 32x128px

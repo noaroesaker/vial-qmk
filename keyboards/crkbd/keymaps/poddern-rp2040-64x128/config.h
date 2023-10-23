@@ -20,8 +20,7 @@
 #define HAL_USE_I2C TRUE
 #define I2C_DRIVER I2CD1
 #define I2C1_SDA_PIN GP2
-#define I2C1_SCL_PIN GP3
-
+#define I2C1_SCL_PIN GP390
 #define OLED_DISPLAY_64X128
 
 #include_next <mcuconf.h> // for i2c
