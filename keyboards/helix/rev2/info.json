@@ -31,6 +31,14 @@
             "static_gradient": true
         }
     },
+    "features": {
+        "encoder": true
+    },
+    "encoder": {
+        "rotary": [
+          { "pin_a": "B6", "pin_b": "B5", "resolution": 2 }
+        ]
+    },
     "ws2812": {
         "pin": "D3"
     },

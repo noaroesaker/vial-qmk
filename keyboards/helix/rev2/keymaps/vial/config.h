@@ -20,17 +20,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+#define EE_HANDS
+
 #define VIAL_KEYBOARD_UID {0xE4, 0x99, 0x35, 0x98, 0xBC, 0xC5, 0xA0, 0x11}
 #define VIAL_UNLOCK_COMBO_ROWS {4, 9}
 #define VIAL_UNLOCK_COMBO_COLS {4, 4}
-
-#if defined(LED_ANIMATIONS)
-   #define RGBLIGHT_EFFECT_BREATHING
-
-   #undef RGBLIGHT_EFFECT_RGB_TEST
-   #undef RGBLIGHT_EFFECT_ALTERNATING
-   #undef RGBLIGHT_EFFECT_TWINKLE
-#endif
 
 // none of the other builds have enough room for anything else
 #if !defined(KEYBOARD_helix_rev2)
