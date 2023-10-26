@@ -90,7 +90,7 @@ oled_rotation_t oled_init_user(oled_rotation_t rotation) {
 }
 
 // Animation parameters
-#define FRAME_DURATION 40 // How long each frame lasts in milliseconds
+#define FRAME_DURATION 35 // How long each frame lasts in milliseconds
 
 // Animation variables
 uint32_t timer = 0;
