@@ -68,3 +68,4 @@ https://docs.qmk.fm/#/feature_encoders?id=encoder-map
 https://www.google.com/search?client=firefox-b-d&q=pro+micro+pihnoiut#vhid=Lp4j6gZsFVwfRM&vssid=l
 https://github.com/qmk/qmk_firmware/blob/master/docs/feature_encoders.md
 http://www.keyboard-layout-editor.com/#/
+*/
